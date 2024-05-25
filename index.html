@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projek Pernikahan</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--style-->
+    <link rel="stylesheet" href="style/style.css" />
+    <!--tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--navbar star-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Alan<span>&</span>Nahda</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#countdown">Countdown</a>
+        <a href="#profil">Profil</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--hero start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h1>Alan & Nahda</h1>
+        <p>Akan melangsungkan resepsi dalam</p>
+        <a href="#countdown" class="btn btn-lg mt-4">Lihat Undangan</a>
+      </main>
+    </section>
+    <!--hero end-->
+    <!--countdown start-->
+    <section class="countdown" id="countdown">
+    <div id="countdown">
+      <div class="my-10 text-white p z-30">
+        <div class="flex flex-wrap items-center justify-center alight-item position-relative mx-auto gap-5">
+          <div
+            class="h-32 w-32 bg-neutral-500/30 rounded-full flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span id="days" class="text-3xl lg:text-4xl"></span>
+              <p>Hari</p>
+            </div>
+          </div>
+
+          <div
+            class="h-32 w-32 bg-neutral-500/30 rounded-full flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span id="hours" class="text-3xl lg:text-4xl"></span>
+              <p>Jam</p>
+            </div>
+          </div>
+
+          <div
+            class="h-32 w-32 bg-neutral-500/30 rounded-full flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span id="minutes" class="text-3xl lg:text-4xl"></span>
+              <p>Menit</p>
+            </div>
+          </div>
+
+          <div
+            class="h-32 w-32 bg-neutral-500/30 rounded-full flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span id="seconds" class="text-3xl lg:text-4xl"></span>
+              <p>Detik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--countdown end-->
+    <!--profil start-->
+    <!--profil end-->
+    <!--feather icons-->
+    <script>
+      feather.replace();
+    </script>
+    <!--java script-->
+    <script src="script/script.js"></script>
+  </body>
+</html>
